@@ -1,6 +1,6 @@
 {
   "name": "@tellmywife/eslint-plugin-no-empty-string",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "ESLint plugin to enforce using EMPTY_STRING from '/utils/consts' instead of empty string literals",
   "main": "index.js",
   "scripts": {
