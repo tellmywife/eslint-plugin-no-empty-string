@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-no-empty",
+  "name": "@tellmywife/eslint-plugin-no-empty-string",
   "version": "1.0.2",
   "description": "ESLint plugin to enforce using EMPTY_STRING from '/utils/consts' instead of empty string literals",
   "main": "index.js",
@@ -10,5 +10,18 @@
   "license": "MIT",
   "peerDependencies": {
     "eslint": "^8.56.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/@tellmywife/eslint-plugin-no-empty-string.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "empty-string"
+  ]
 }
