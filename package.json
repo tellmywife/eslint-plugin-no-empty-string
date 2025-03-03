@@ -1,11 +1,14 @@
 {
   "name": "eslint-plugin-no-empty",
   "version": "1.0.0",
+  "description": "ESLint plugin to enforce using EMPTY_STRING from '/utils/consts' instead of empty string literals",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "author": "Weka Home Team",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^8.56.0"
+  }
 }
